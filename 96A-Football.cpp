@@ -4,7 +4,7 @@ int main()
     std::string s;
     std::cin >> s;
     auto count = 1;
-    char temp = ' ';
+    auto temp = ' ';
     for(auto letter : s)
     {
         if(temp == letter)
